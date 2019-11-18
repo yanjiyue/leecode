@@ -1,9 +1,3 @@
-class TreeNode(object):
-    def _init_(self,x):
-        self[0]=x
-        self[1]=[]
-        self[2]=[]
-
 class Solution(object):
     def insert(self,root,item):#新增
         if root==[]:
